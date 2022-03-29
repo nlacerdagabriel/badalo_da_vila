@@ -7,6 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem;
 
     .lineOne{
         padding: 5rem 0 2rem 0;
@@ -64,6 +65,18 @@ export const Container = styled.div`
                 font-weight: bold;
             }
         }
+    }
+
+    @media(max-width: 675px){
+
+        .lineOne{
+            flex-direction: column;
+
+            & > div, & > ul, & > h2{
+                margin: 1.5rem 0;
+            }
+        }
+
     }
 
 `

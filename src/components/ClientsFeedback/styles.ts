@@ -8,7 +8,10 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
 
-    div{
+    & > div{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 `

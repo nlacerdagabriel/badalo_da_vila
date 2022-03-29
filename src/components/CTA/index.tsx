@@ -13,12 +13,9 @@ export function CTA() {
                 We Provide The Solution.
             </h2>
 
-            <p>Our Cakes And Cookies is made from freshly
-                ground wheat berries and other organic <br /> ingredients!</p>
 
             <C.Buttons>
-                <ButtonHover content='Donwload App' primaryColor='var(--text-black)' hoverColor='#000' textColor='#FFF' />
-                <ButtonHover content='Subscribe' primaryColor='var(--blue)' hoverColor='var(--blue-hover)' textColor='#FFF' />
+                <ButtonHover content='PEÇA PELO IFOOD' primaryColor='#EA1C2D' hoverColor='#750b13' textColor='#FFF' />
             </C.Buttons>
 
             <img src={imgCTA} alt="" />

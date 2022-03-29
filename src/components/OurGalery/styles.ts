@@ -9,12 +9,23 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+   .slider{
+    display: none;
+    width: 90%;
+   }
+
+   @media(max-width: 845px){
+    .slider{
+            display: flex;
+        }
+     }
 `
 
 export const Grid = styled.div`
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     
     & > div{
@@ -34,4 +45,16 @@ export const Grid = styled.div`
         }
     }
 
+    @media(max-width: 1220px){
+        grid-template-columns: repeat(2, 1fr);
+
+        & {
+            padding: 0 2rem;
+        }
+
+    }
+
+     @media(max-width: 845px){
+        display: none;
+    }
 `

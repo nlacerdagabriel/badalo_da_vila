@@ -14,6 +14,15 @@ export const ContainerNumbers = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width: 845px){
+        flex-direction: column;
+
+        & > div{
+            margin: 2rem 0;
+        }
+    }
+
 `
 
 export const EachNumber = styled.div`

@@ -20,6 +20,7 @@ export const ContainerContent = styled.div`
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: 2rem 0;
     }
 
     h2{
@@ -49,7 +50,7 @@ export const ContainerContent = styled.div`
     .contato > div{
         display: flex;
         align-items: center;
-        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         div{
             transform: scale(1.2);
@@ -76,6 +77,12 @@ export const ContainerContent = styled.div`
 
     .ifood p{
         margin-top: 2rem;
+    }
+
+    @media(max-width: 845px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 `

@@ -9,6 +9,13 @@ export const Container = styled.div`
     align-items: center;
     margin: 0 auto;
     color: var(--text-black);
+
+
+    @media (max-width: 1220px){
+        & {
+            flex-direction: column;
+        }
+    }
 `
 export const Image = styled.div`
     height: 30rem;
@@ -17,7 +24,6 @@ export const Image = styled.div`
     background-position: center;
     background-size: cover;
     position: relative;
-
 
    div{
     display: flex;
@@ -44,6 +50,19 @@ export const Image = styled.div`
         }
     }
    }
+
+   @media (max-width: 1220px){
+        & {
+            width: 500px;
+        }
+    }
+
+   @media (max-width: 625px){
+        & {
+            margin-bottom: 1rem;
+            width: 90%;
+        }
+    }
 `
 
 export const ContainerText = styled.div`
@@ -65,6 +84,34 @@ export const ContainerText = styled.div`
         color: var(--text-gray);
         font-family: sans-serif;
         line-height: 1.8rem;
+    }
+
+    
+   @media (max-width: 1220px){
+        & {
+            width: 500px;
+
+            p, h2, h3{
+                text-align: center;
+            }
+
+            button{
+                margin: 0 auto;
+            }
+        }
+    }
+
+    @media (max-width: 625px){
+        & {
+            width: 90%;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                margin: 0 auto;
+                transform: scale(0.8);
+            }
+        }
     }
 
     `

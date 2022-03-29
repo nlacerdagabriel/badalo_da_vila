@@ -17,7 +17,7 @@ export function App() {
   return (
     <>
       <GlobalStyle />
-      <Header/>
+      <Header />
       <Home />
       <AboutUs />
       <OurServices />
@@ -28,8 +28,8 @@ export function App() {
       <CTA />
       <ClientsFeedback />
       <ContactUs />
-      <Location/>
-      <Footer/>
+      <Location />
+      <Footer />
     </>
   )
 }

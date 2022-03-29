@@ -11,14 +11,15 @@ export function ContactUs() {
                 <div className="contato">
                     <h2>Contato</h2>
 
-                    <a href="tel:+551133333334">
-                        <ButtonHover content='Ligar agora' hoverColor='var(--blue)' primaryColor='var(--text-black)' textColor='var(--white)' />
-                    </a>
 
                     <div>
                         <RedesButton icon={<FaInstagram />} bgColor='var(--blue)' color='var(--white)' link='https://www.instagram.com/belaflorpadaria/' />
                         <RedesButton icon={<FaWhatsapp />} bgColor='var(--blue)' color='var(--white)' link='https://www.instagram.com/belaflorpadaria/' />
                     </div>
+                    
+                    <a href="tel:+551133333334">
+                        <ButtonHover content='Ligar agora' hoverColor='var(--blue)' primaryColor='var(--text-black)' textColor='var(--white)' />
+                    </a>
                 </div>
                 <div className="ifood">
                     <h2>Peça pelo Ifood!</h2>
