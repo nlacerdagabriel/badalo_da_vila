@@ -8,7 +8,7 @@ import { SectionTitle } from '../SectionTitle'
 export function OurChefs() {
     return (
         <C.Container>
-            <SectionTitle>Our Chef</SectionTitle>
+            <SectionTitle>Nossa Equipe</SectionTitle>
             <C.ContainerCards>
                 <CardChef img={chef1} name="Tom Hardy" cargo="Owner"/>
                 <CardChef img={chef2} name="Mark Otto" cargo="Senior Baker"/>

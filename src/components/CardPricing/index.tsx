@@ -5,7 +5,7 @@ import { ButtonHover } from '../ButtonHover'
 
 type CardPricingProps = {
     value: number;
-    currency: string;
+    name: string;
     items: string[];
     buttonBgColor: string;
     buttonHover: string;
@@ -13,20 +13,20 @@ type CardPricingProps = {
     backgroundImage: string;
 }
 
-export function CardPricing({ value, currency, items, buttonBgColor, buttonHover, buttonTextColor, backgroundImage }: CardPricingProps) {
+export function CardPricing({ value, name, items, buttonBgColor, buttonHover, buttonTextColor, backgroundImage }: CardPricingProps) {
     return (
         <C.Container>
             <C.Header style={{ backgroundImage: `url(${backgroundImage})` }}>
                 <div>
-                    <C.Price>
+                    {/* <C.Price>
                         <div>
                             <FaDollarSign color="var(--blue)" />
                             <h3>{value}</h3>
                         </div>
                         <p>{currency}</p>
-                    </C.Price>
+                    </C.Price> */}
                     <C.Plan>
-                        Plan
+                        {name}
                     </C.Plan>
                 </div>
             </C.Header>
@@ -37,7 +37,7 @@ export function CardPricing({ value, currency, items, buttonBgColor, buttonHover
                         <li>{it}<span><MdDone /></span></li>
                     ))}
                 </ul>
-                <ButtonHover hasIcon={true} content='Purchase now' textColor={buttonTextColor} primaryColor={buttonBgColor} hoverColor={buttonHover} />
+                {/* <ButtonHover hasIcon={true} content='Purchase now' textColor={buttonTextColor} primaryColor={buttonBgColor} hoverColor={buttonHover} /> */}
             </C.Body>
         </C.Container>
     )

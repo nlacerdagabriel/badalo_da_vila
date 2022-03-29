@@ -9,7 +9,8 @@ export const Container = styled.div`
     align-items: center;
     
     img{
-        width: 80%;
+        width: 60%;
+        margin-top: 2rem;
     }
     
     h2{

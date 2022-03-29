@@ -7,7 +7,7 @@ type CardClientsFeedbackProps = {
     img: string;
     description: string;
     name: string;
-    job: string;
+    job?: string;
 }
 
 
@@ -15,7 +15,7 @@ export function CardClientsFeedback({img, description, name, job} : CardClientsF
 
     return (
         <C.Container>
-            <img src={img} alt="" />
+            {/* <img src={img} alt="" /> */}
             <FaQuoteLeft size={30} />
 
             <p>{description}</p>
@@ -30,7 +30,8 @@ export function CardClientsFeedback({img, description, name, job} : CardClientsF
                 <RiStarFill color='#fcb71b' size={20} />
                 <RiStarFill color='#fcb71b' size={20} />
                 <RiStarFill color='#fcb71b' size={20} />
-                <RiStarSLine color='#fcb71b' size={25} />
+                <RiStarFill color='#fcb71b' size={20} />
+                {/* <RiStarSLine color='#fcb71b' size={25} /> */}
             </div>
 
         </C.Container>

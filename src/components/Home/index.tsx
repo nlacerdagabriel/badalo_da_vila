@@ -7,15 +7,12 @@ export function Home() {
         <C.Container>
             <C.DarkBg>
                 <C.ContainerContent>
-                    <p>Cakes and Cookies for you</p>
-                    <h2>the best place for the bread and cakes</h2>
-                    <p className="descText" >We strive for consistency so that each visit to
-                    our bakery delivers the same reliably satisfying
-                    experience while offering an exciting variety of products.</p>
+                    <p>A melhor padaria da região</p>
+                    <h2>Padaria Bela Flor</h2>
+                    <p className="descText" >Padaria na Rua Padre Machado, 504 Aberto todos os dias até 22:00 </p>
 
                     <C.ContainerButton>
-                        <ButtonHover content='Get started' hoverColor='#d9d9d9'  primaryColor='var(--white)' textColor='var(--text-black)' />
-                        <ButtonHover content='Contact us' hoverColor='var(--blue-hover)'  primaryColor='var(--blue)' textColor='var(--white)' />
+                        <ButtonHover content='Contatos' hoverColor='var(--blue-hover)'  primaryColor='var(--blue)' textColor='var(--white)' />
                     </C.ContainerButton>
                 </C.ContainerContent>
             </C.DarkBg>

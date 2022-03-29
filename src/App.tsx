@@ -20,11 +20,11 @@ export function App() {
       <Header />
       <Home />
       <AboutUs />
-      <OurServices />
+      <OurPricing />
+      {/* <OurServices /> */}
       <OurGalery />
       <InfoNumbers />
       <OurChefs />
-      <OurPricing />
       <CTA />
       <ClientsFeedback />
       <ContactUs />

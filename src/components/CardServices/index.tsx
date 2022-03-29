@@ -8,7 +8,7 @@ type CardServicesProps = {
     items: string[];
 }
 
-export function CardServices({ children, icon, title, items }: CardServicesProps) {
+export function CardServices({children, icon, title, items }: CardServicesProps) {
     return (
         <C.Container>
             <C.Header>

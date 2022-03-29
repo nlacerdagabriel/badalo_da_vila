@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 650px;
+    height: 550px;
     width: 400px;
     box-shadow: 0px 0px 2px #ccc;
     margin: 1rem;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 `
 
 export const Header = styled.div`
-    height: 35%;
+    height: 40%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,8 +64,7 @@ export const Price = styled.div`
 `
 
 export const Plan = styled.div`
-    width: 80px;
-    height: 35px;
+    padding: 0.5rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,11 +74,13 @@ export const Plan = styled.div`
     font-size: 0.9rem;
     background-color: var(--blue);
     border-radius: 2rem;
+    position: relative;
+    top: -40px;
 `
 
 export const Body = styled.div`
     width: 100%;
-    height: 65%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;

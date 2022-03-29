@@ -8,31 +8,29 @@ import * as C from './styles'
 export function OurPricing() {
     return (
         <C.Container>
-            <SectionTitle>Our Pricing</SectionTitle>
+            <SectionTitle>Pratos Principais</SectionTitle>
             <C.Cards>
                 <CardPricing
                     value={39}
-                    currency="Silver"
+                    name="Frango à parmegiana"
                     items={['Crumpets', 'Muffins', 'Pancakes', 'Croissants', 'Cupcakes']}
                     buttonBgColor="#FFF" buttonHover="#d9d9d9" buttonTextColor="#000"
                     backgroundImage={pricing1}
-                    />
-
+                />
                 <CardPricing
-                    value={49}
-                    currency="Gold"
-                    items={['Crumpets', 'Muffins', 'Pancakes', 'Croissants', 'Donuts']}
-                    buttonBgColor="var(--blue)" buttonHover="var(--blue-hover)" buttonTextColor="var(--white)"
-                    backgroundImage={pricing2}
-                    />
-
-                <CardPricing
-                    value={59}
-                    currency="Diamond"
-                    items={['Crumpets', 'Muffins', 'Pancakes', 'Croissants', 'Salty Pastry']}
+                    value={39}
+                    name="Frango à parmegiana"
+                    items={['Crumpets', 'Muffins', 'Pancakes', 'Croissants', 'Cupcakes']}
                     buttonBgColor="#FFF" buttonHover="#d9d9d9" buttonTextColor="#000"
-                    backgroundImage={pricing3}
-                    />
+                    backgroundImage={pricing1}
+                />
+                <CardPricing
+                    value={39}
+                    name="Frango à parmegiana"
+                    items={['Crumpets', 'Muffins', 'Pancakes', 'Croissants', 'Cupcakes']}
+                    buttonBgColor="#FFF" buttonHover="#d9d9d9" buttonTextColor="#000"
+                    backgroundImage={pricing1}
+                />
             </C.Cards>
         </C.Container>
     )

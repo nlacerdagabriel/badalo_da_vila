@@ -8,26 +8,25 @@ export function AboutUs() {
             <C.Image>
                 <div>
                     <img src={jeff} alt="" />
-                    <p>Jeff D. <br /><span>Founder</span></p>
+                    <p>Antônio <br /><span>Founder</span></p>
                 </div>
             </C.Image>
 
             <C.ContainerText>
-                <p>About us</p>
-                <h2>All sorrows are less with Cookies Respect</h2>
-                <p>A cookie is a baked or cooked food that is typically
-                    small, flat and sweet. It usually contains flour, sugar
-                    and some type of oil or fat. It may include other ingredients
-                    such as raisins, oats, chocolate chips, nuts, etc.</p>
+                <p>Sobre nós</p>
+                <h2>Conheça mais sobre nossa padaria</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
                 <C.OurMission>
-                    <h3>Our Mission</h3>
-                    <p>In most English-speaking countries except for the United
-                        States, crunchy cookies are called biscuits. Many Canadians
-                        also use this term. Chewier biscuits are sometimes called cookies
-                        even in the Uk.</p>
+                    <h3>Nossos objetivos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation.</p>
                 </C.OurMission>
 
-                <ButtonHover content='Learn More' textColor='#FFF' primaryColor='var(--blue)' hoverColor='var(--blue-hover)' />
+                {/* <ButtonHover content='Learn More' textColor='#FFF' primaryColor='var(--blue)' hoverColor='var(--blue-hover)' /> */}
             </C.ContainerText>
         </C.Container>
     )

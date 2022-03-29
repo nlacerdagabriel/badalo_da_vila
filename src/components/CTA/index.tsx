@@ -1,6 +1,6 @@
 import { ButtonHover } from '../ButtonHover'
 import * as C from './styles'
-import imgCTA from '../../assets/imgCTA.jpg'
+import ifood from '../../assets/ifood.webp'
 import {GiBowlOfRice} from 'react-icons/gi'
 
 export function CTA() {
@@ -9,8 +9,7 @@ export function CTA() {
         <C.Container>
             <GiBowlOfRice size="3rem"  color='var(--blue)'/>
             <h2>
-                You Provide <span>The Vision </span>
-                We Provide The Solution.
+                Peça sem sair de casa!
             </h2>
 
 
@@ -18,7 +17,7 @@ export function CTA() {
                 <ButtonHover content='PEÇA PELO IFOOD' primaryColor='#EA1C2D' hoverColor='#750b13' textColor='#FFF' />
             </C.Buttons>
 
-            <img src={imgCTA} alt="" />
+            <img src={ifood} alt="" />
         </C.Container>
     )
 
