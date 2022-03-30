@@ -9,18 +9,9 @@ import client3 from '../../assets/client3.jpg'
 export function ClientsFeedback() {
 
     return (
-        <C.Container>
+        <C.Container id='feedback'>
             <SectionTitle>Avaliações dos Clientes</SectionTitle>
             <div>
-                <CardClientsFeedback
-                    img={client1}
-                    name="Aash Aron"
-                    // job="Fashion Designer"
-                    description='"
-                    Lugar aconchegante, comidas ótimas e um atendimento fora do normal. Pessoas educadas e comunicativas, que procuram sempre atender bem seus clientes.
-                    Passei alguns dias em SP, aonde tive a oportunidade de conhecer alguns estabelecimentos comerciais, mas igual ao atendimento que recebi na padaria, sem comparação.
-                    Obrigado, e continuem nesse ritmo, que a tendência é só evoluir.
-                    "'/>
 
                 <CardClientsFeedback
                     img={client2}
@@ -29,7 +20,12 @@ export function ClientsFeedback() {
                     description='"Muito boa padaria, com variedade de pães e doces, além de pratos e lanches bem preparados e saborosos.
                     Frios fatiados bem fininhos, dão um sabor especial ao montar o sanduíche, no lanche de casa.
                     Tem mantido a qualidade e isso é muito importante."'/>
-
+                <CardClientsFeedback
+                    img={client1}
+                    name="Adriane Baldo"
+                    // job="Fashion Designer"
+                    description='"
+                        Muito bom! Atendentes muito simpáticos e atenciosos... Pãezinhos diversos e doces. Tudo delicioso. Acessível para cadeirantes."'/>
                 <CardClientsFeedback
                     img={client3}
                     name="Bruna Lyandra"

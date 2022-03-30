@@ -4,7 +4,7 @@ import { ButtonHover } from '../ButtonHover'
 
 export function AboutUs() {
     return (
-        <C.Container>
+        <C.Container id='about'>
             <C.Image>
                 <div>
                     <img src={jeff} alt="" />

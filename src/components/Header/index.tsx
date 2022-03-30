@@ -5,23 +5,29 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { CgClose } from 'react-icons/cg'
 import { useState, useEffect } from 'react'
 import { ButtonHover } from '../ButtonHover'
-import {AiOutlineHome, AiOutlinePhone} from 'react-icons/ai'
-import {MdPeopleOutline} from 'react-icons/md'
-import {GrGallery} from 'react-icons/gr'
-import {VscFeedback} from 'react-icons/vsc'
+import { AiOutlineHome, AiOutlinePhone } from 'react-icons/ai'
+import { MdPeopleOutline } from 'react-icons/md'
+import { GrGallery } from 'react-icons/gr'
+import { VscFeedback } from 'react-icons/vsc'
 
 export function Header() {
 
   const [menuIsOpen, setMenuIsOpen] = useState(false)
 
-  function openMenu() {
+  function handleMenuOpen() {
     setMenuIsOpen(!menuIsOpen)
+  }
+
+  function closeMenuFromMenuMobile() {
+    setTimeout(() => {
+      handleMenuOpen()
+    }, 500)
   }
 
 
   return (
     <C.Container>
-      <button className='hamburguer' onClick={openMenu}>
+      <button className='hamburguer' onClick={handleMenuOpen}>
         {menuIsOpen ? <CgClose /> : <GiHamburgerMenu />}
       </button>
 
@@ -41,11 +47,11 @@ export function Header() {
       <C.MenuContainer className={menuIsOpen ? 'menuOpen' : 'menu'}>
         <div>
           <ul>
-            <li><AiOutlineHome/> Início</li>
-            <li><MdPeopleOutline/> Sobre Nós</li>
-            <li><GrGallery id='gallery'/>Galeria</li>
-            <li><VscFeedback id='feedback'/>Avaliações</li>
-            <li><AiOutlinePhone id='contact'/>Contato</li>
+            <a href="#home" onClick={closeMenuFromMenuMobile}><li ><AiOutlineHome /> Início</li></a>
+            <a href="#about" onClick={closeMenuFromMenuMobile}><li><MdPeopleOutline /> Sobre Nós</li></a>
+            <a href="#gallery" onClick={closeMenuFromMenuMobile}><li><GrGallery id='galleryIcon' />Galeria</li></a>
+            <a href="#feedback" onClick={closeMenuFromMenuMobile}><li><VscFeedback id='feedbackIcon' />Avaliações</li></a>
+            <a href="#contact" onClick={closeMenuFromMenuMobile}><li><AiOutlinePhone id='contactIcon' />Contato</li></a>
           </ul>
 
           <a target='_blank' href="https://www.ifood.com.br/delivery/sao-paulo-sp/padaria-bela-flor-bosque-da-saude/0b41aaee-e5e0-4501-a2e6-b0ee81b34cc2?UTM_Medium=share">

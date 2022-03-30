@@ -16,7 +16,7 @@ import 'react-awesome-slider/dist/styles.css';
 export function OurGalery() {
 
     return (
-        <C.Container>
+        <C.Container id='gallery'>
             <SectionTitle>Visite Nosso Espaço</SectionTitle>
 
             <C.Grid>

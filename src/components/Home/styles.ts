@@ -43,10 +43,9 @@ export const ContainerContent = styled.div`
     h2{
         text-transform: capitalize;
         font-size: var(--title-size);
-        width: 100%;
+        padding: 0.3rem 0.3rem;
         margin: 0.5rem 0;
         line-height: 4rem;
-        padding: 1rem;
         background: rgba(72, 72, 127, 0.7);
         border-radius: 1rem;
     }

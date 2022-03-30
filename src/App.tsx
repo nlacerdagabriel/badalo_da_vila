@@ -1,4 +1,5 @@
 import { AboutUs } from './components/AboutUs'
+import { ButtonToTop } from './components/ButtonToTop'
 import { ClientsFeedback } from './components/ClientsFeedback'
 import { ContactUs } from './components/ContactUs'
 import { CTA } from './components/CTA'
@@ -32,6 +33,7 @@ export function App() {
       <ContactUs />
       <Location />
       <Footer />
+      <ButtonToTop/>  
     </div>
   )
 }

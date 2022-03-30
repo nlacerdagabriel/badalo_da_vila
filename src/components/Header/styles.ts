@@ -7,7 +7,8 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5rem;
+    height: 4rem;
+    padding: 0 3rem;
     background-color: var(--white);
     box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
     z-index: 9;
@@ -116,10 +117,17 @@ box-shadow: 0px 0px 5px var(--text-gray);
         ul{
             width: 80%;
             min-width: 300px;
-            li{
+            
+
+            a{
+                color: var(--text-black);
+                text-decoration: none;
+
+                li{
                 list-style: none;
-                padding: 1rem 1rem;
-                font-size: 2rem;
+                border-bottom: 1px solid #ccc4;
+                padding: 1.3rem 1rem;
+                font-size: 1rem;
 
                 &:active{
                     background-color: rgba(125,125,125, 0.2);
@@ -130,10 +138,11 @@ box-shadow: 0px 0px 5px var(--text-gray);
                     top: 2px;
                     margin-right: 0.5rem;
 
-                    &#gallery, &#feedback, &#contact{
+                    &#galleryIcon, &#feedbackIcon, &#contactIcon{
                         margin-right: 1rem;
                     }
                 }
+            }
             }
 
         }
@@ -143,9 +152,9 @@ box-shadow: 0px 0px 5px var(--text-gray);
             min-width: 300px;
 
             button{
-                font-size: 1.5rem;
+                font-size: 1rem;
                 width: 100%;
-                padding: 3rem 0;
+                padding: 2rem 0;
                 border-radius: 0.5rem;
             }
         }

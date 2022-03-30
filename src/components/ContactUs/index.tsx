@@ -6,7 +6,7 @@ import { ButtonHover } from '../ButtonHover'
 
 export function ContactUs() {
     return (
-        <C.Container>
+        <C.Container id='contact'>
             <C.ContainerContent>
                 <div className="contato">
                     <h2>Contato</h2>

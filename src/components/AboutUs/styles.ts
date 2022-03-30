@@ -3,7 +3,7 @@ import padeiro from '../../assets/padeiro.jpg'
 
 export const Container = styled.div`
     max-width: 1220px;
-    padding: 4rem 1.5rem;
+    padding:  4rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
