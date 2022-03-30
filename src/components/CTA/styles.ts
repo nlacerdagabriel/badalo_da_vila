@@ -7,6 +7,14 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 845px){
+        h2{
+            transform: scale(0.8);
+            text-align: center;
+            line-height: 4rem;
+        }
+    }
     
     img{
         width: 60%;
@@ -47,6 +55,7 @@ export const Container = styled.div`
         h2{
             width: 90%;
             transform: scale(0.8);
+            line-height: 4rem;
         }
 
         img{

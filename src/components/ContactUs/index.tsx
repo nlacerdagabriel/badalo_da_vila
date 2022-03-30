@@ -27,7 +27,7 @@ export function ContactUs() {
                         <ButtonHover content='&nbsp;&nbsp;Ifood&nbsp;' hoverColor='#750b13' primaryColor='#EA1C2D' textColor='var(--white)' />
                     </a>
 
-                    <p>Estamos disponíveis de Segunda à Sexta das 06:00 até às 22:00</p>
+                    <p>Estamos disponíveis de Segunda à Segunda das 06:00 até às 22:00</p>
                 </div>
                 <div className="endereco">
                     <h2>Endereço</h2>

@@ -114,6 +114,13 @@ export const ContainerText = styled.div`
         }
     }
 
+    @media (max-width: 845px){
+        h2{
+            transform: scale(0.8);
+            text-align: center;
+        }
+    }
+
     `
 
 export const OurMission = styled.div`

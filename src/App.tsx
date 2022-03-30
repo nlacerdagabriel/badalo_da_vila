@@ -14,8 +14,10 @@ import { OurServices } from './components/OurServices'
 import { GlobalStyle } from './styles/globalStyles'
 
 export function App() {
+  // const [menuIsOpen, setMenuIsOpen] = useState(false)
+
   return (
-    <>
+    <div style={{overflowX: 'hidden'}}>
       <GlobalStyle />
       <Header />
       <Home />
@@ -30,6 +32,6 @@ export function App() {
       <ContactUs />
       <Location />
       <Footer />
-    </>
+    </div>
   )
 }

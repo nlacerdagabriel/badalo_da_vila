@@ -5,6 +5,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     max-width: 1120px;
     margin: 3rem auto 5rem auto;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,11 +14,22 @@ export const Container = styled.div`
    .slider{
     display: none;
     width: 90%;
+    --control-bullet-color: var(--blue);
+  --control-bullet-active-color: var(--blue-hover);
+  $slick-prev-character: "←" !default;
+$slick-next-character: "→" !default;
+
    }
 
    @media(max-width: 845px){
     .slider{
             display: flex;
+        }
+
+        h2{
+            transform: scale(0.8);
+            text-align: center;
+            line-height: 4rem;
         }
      }
 `
