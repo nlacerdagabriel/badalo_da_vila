@@ -15,7 +15,7 @@ export const Button = styled.button<ButtonProps>`
     border: none;
     font-family: "Helvetica";
     font-weight: 900;
-
+    border-radius: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;

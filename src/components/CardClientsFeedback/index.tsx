@@ -4,7 +4,7 @@ import { RiStarSLine, RiStarFill } from 'react-icons/ri'
 
 
 type CardClientsFeedbackProps = {
-    img: string;
+    img?: string;
     description: string;
     name: string;
     job?: string;

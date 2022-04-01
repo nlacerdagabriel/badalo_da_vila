@@ -46,7 +46,7 @@ export const ContainerContent = styled.div`
         padding: 0.3rem 0.3rem;
         margin: 0.5rem 0;
         line-height: 4rem;
-        background: rgba(72, 72, 127, 0.7);
+        background: rgba(125,125,125, 0.5);
         border-radius: 1rem;
     }
     `

@@ -7,9 +7,10 @@ export function Home() {
         <C.Container id='home'>
             <C.DarkBg>
                 <C.ContainerContent>
-                    <p>A melhor padaria da região</p>
-                    <h2>Padaria Bela Flor</h2>
-                    <p className="descText" >Padaria na Rua Padre Machado, 504 Aberto todos os dias das 06:00 até 22:00 </p>
+                    <p>O melhor restaurante da região</p>
+                    <h2>Badalo da Vila</h2>
+                    <p className="descText" >R. Afonso Celso, S/N - 943 - Vila Mariana, São Paulo - SP.
+                        Aberto todos os dias das 06:00 até 22:00 </p>
 
                     <C.ContainerButton>
                         <a href="#contact">

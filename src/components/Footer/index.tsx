@@ -12,20 +12,20 @@ export function Footer() {
                 <h2>Bela Flor</h2>
 
                 <ul>
-                    <li>Home</li>
-                    <li>Gallery</li>
-                    <li>Feedbacks</li>
-                    <li>Contact</li>
+                    <a href="#home"><li>Início</li></a>
+                    <a href="#gallery"><li>Galeria</li></a>
+                    <a href="#feedback"><li>Avaliações</li></a>
+                    <a href="#contact"><li>Contato</li></a>
                 </ul>
 
                 <div>
-                    <RedesButton icon={<FaInstagram />} bgColor='var(--blue-hover)' color='var(--blue)' link='https://www.instagram.com/belaflorpadaria/' />
-                    <RedesButton icon={<FaWhatsapp />} bgColor='var(--blue-hover)' color='var(--blue)' link='https://www.instagram.com/belaflorpadaria/' />
+                    <RedesButton icon={<FaInstagram />} bgColor='var(--blue-hover)' color='var(--blue)' link='https://www.instagram.com/badalodavila/' />
+                    <RedesButton icon={<FaWhatsapp />} bgColor='var(--blue-hover)' color='var(--blue)' link='' />
                 </div>
             </div>
 
             <div className='lineTwo'>
-                <p>© Padaria Bela Flor - <span>{date.getFullYear()}</span></p>
+                <p>© Restaurante Badalo da Vila - <span>{date.getFullYear()}</span></p>
             </div>
         </C.Container>
     )

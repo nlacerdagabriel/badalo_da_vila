@@ -32,14 +32,14 @@ export function Header() {
       </button>
 
       <div className='logo'>
-        <h2>Padaria Bela Flor</h2>
+        <h2>Badalo da Vila</h2>
       </div>
 
       <C.Contato>
-        <a href="tel:+551133333334">
+        <a href="tel:+1125943239">
           <li><IoIosPhonePortrait /> Ligar Agora</li>
         </a>
-        <a target='_blank' href="https://www.google.com/maps/place/R.+Padre+Machado,+504+-+Bosque+da+Sa%C3%BAde,+S%C3%A3o+Paulo+-+SP,+04127-001/data=!4m2!3m1!1s0x94ce5bcb2c8a6cbf:0x1bbb667aaa0f3bf3?sa=X&ved=2ahUKEwiZvd-xpef2AhXoD7kGHWNFBSIQ8gF6BAgWEAE">
+        <a target='_blank' href="https://www.google.com/maps/place/R.+Afonso+Celso,+943+-+Vila+Mariana,+S%C3%A3o+Paulo+-+SP,+04119-060/@-23.5998359,-46.6369759,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5a33998304e9:0x2c26deae87a5d4d9!8m2!3d-23.5998359!4d-46.6347872">
           <li><FaRoute /> Ver Rotas</li>
         </a>
       </C.Contato>
@@ -54,7 +54,7 @@ export function Header() {
             <a href="#contact" onClick={closeMenuFromMenuMobile}><li><AiOutlinePhone id='contactIcon' />Contato</li></a>
           </ul>
 
-          <a target='_blank' href="https://www.ifood.com.br/delivery/sao-paulo-sp/padaria-bela-flor-bosque-da-saude/0b41aaee-e5e0-4501-a2e6-b0ee81b34cc2?UTM_Medium=share">
+          <a target='_blank' href="">
             <ButtonHover content='Peça pelo IFOOD' hoverColor='#750b13' primaryColor='#EA1C2D' textColor='var(--white)' />
           </a>
         </div>

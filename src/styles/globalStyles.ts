@@ -3,8 +3,10 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
     :root{
         --white: #FFF;
-        --blue: #48487F;
-        --blue-hover:#2e2e59;
+        --blue: #575757;
+        --blue-hover:#333333;
+        /* --blue: #48487F;
+        --blue-hover:#2e2e59; */
         
         --text-gray: #686a6f;
         --text-black: #1c1c1c;

@@ -24,11 +24,11 @@ export function OurGalery() {
                 <div><div style={{ backgroundImage: `url(${img2})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img3})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img4})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img5})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img6})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img7})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img8})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img9})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img1})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img2})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img3})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img4})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img1})` }} /></div>
             </C.Grid>
 
 
