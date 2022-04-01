@@ -37,11 +37,11 @@ export function OurGalery() {
                 <div data-src={img2}></div>
                 <div data-src={img3}></div>
                 <div data-src={img4}></div>
-                <div data-src={img5}></div>
-                <div data-src={img6}></div>
-                <div data-src={img7}></div>
-                <div data-src={img8}></div>
-                <div data-src={img9}></div>
+                <div data-src={img1}></div>
+                <div data-src={img2}></div>
+                <div data-src={img3}></div>
+                <div data-src={img4}></div>
+                <div data-src={img1}></div>
             </AwesomeSlider>
         </C.Container>
     )
