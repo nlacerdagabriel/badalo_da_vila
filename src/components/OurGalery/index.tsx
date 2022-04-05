@@ -1,14 +1,8 @@
 import { SectionTitle } from '../SectionTitle'
 import * as C from './styles'
-import img1 from '../../assets/img1.jpg'
-import img2 from '../../assets/img2.jpg'
-import img3 from '../../assets/img3.jpg'
-import img4 from '../../assets/img4.jpg'
-import img5 from '../../assets/img5.jpg'
-import img6 from '../../assets/img6.jpg'
-import img7 from '../../assets/img7.jpg'
-import img8 from '../../assets/img8.jpg'
-import img9 from '../../assets/img9.jpg'
+import img1 from '../../assets/chef1.jpg'
+import img2 from '../../assets/chef2.jpg'
+import img3 from '../../assets/chef3.jpg'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
@@ -16,19 +10,19 @@ import 'react-awesome-slider/dist/styles.css';
 export function OurGalery() {
 
     return (
-        <C.Container id='gallery'>
+        <C.Container>
             <SectionTitle>Visite Nosso Espaço</SectionTitle>
 
             <C.Grid>
                 <div><div style={{ backgroundImage: `url(${img1})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img2})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img3})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img4})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img1})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img2})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img3})` }} /></div>
-                <div><div style={{ backgroundImage: `url(${img4})` }} /></div>
                 <div><div style={{ backgroundImage: `url(${img1})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img2})` }} /></div>
+                <div><div style={{ backgroundImage: `url(${img3})` }} /></div>
             </C.Grid>
 
 
@@ -36,12 +30,12 @@ export function OurGalery() {
                 <div data-src={img1}></div>
                 <div data-src={img2}></div>
                 <div data-src={img3}></div>
-                <div data-src={img4}></div>
                 <div data-src={img1}></div>
                 <div data-src={img2}></div>
                 <div data-src={img3}></div>
-                <div data-src={img4}></div>
                 <div data-src={img1}></div>
+                <div data-src={img2}></div>
+                <div data-src={img3}></div>
             </AwesomeSlider>
         </C.Container>
     )

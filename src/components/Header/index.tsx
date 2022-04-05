@@ -32,14 +32,14 @@ export function Header() {
       </button>
 
       <div className='logo'>
-        <h2>Badalo da Vila</h2>
+        <h2>Nome da Empresa</h2>
       </div>
 
       <C.Contato>
-        <a href="tel:+1125943239">
+        <a href="">
           <li><IoIosPhonePortrait /> Ligar Agora</li>
         </a>
-        <a target='_blank' href="https://www.google.com/maps/place/R.+Afonso+Celso,+943+-+Vila+Mariana,+S%C3%A3o+Paulo+-+SP,+04119-060/@-23.5998359,-46.6369759,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5a33998304e9:0x2c26deae87a5d4d9!8m2!3d-23.5998359!4d-46.6347872">
+        <a target='_blank' href="">
           <li><FaRoute /> Ver Rotas</li>
         </a>
       </C.Contato>

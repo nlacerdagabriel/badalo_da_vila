@@ -9,23 +9,23 @@ export function Footer() {
     return (
         <C.Container>
             <div className='lineOne'>
-                <h2>Bela Flor</h2>
+                <h2>Logo da Empresa</h2>
 
                 <ul>
-                    <a href="#home"><li>Início</li></a>
-                    <a href="#gallery"><li>Galeria</li></a>
-                    <a href="#feedback"><li>Avaliações</li></a>
-                    <a href="#contact"><li>Contato</li></a>
+                    <li>Home</li>
+                    <li>Gallery</li>
+                    <li>Feedbacks</li>
+                    <li>Contact</li>
                 </ul>
 
                 <div>
-                    <RedesButton icon={<FaInstagram />} bgColor='var(--blue-hover)' color='var(--blue)' link='https://www.instagram.com/badalodavila/' />
+                    <RedesButton icon={<FaInstagram />} bgColor='var(--blue-hover)' color='var(--blue)' link='' />
                     <RedesButton icon={<FaWhatsapp />} bgColor='var(--blue-hover)' color='var(--blue)' link='' />
                 </div>
             </div>
 
             <div className='lineTwo'>
-                <p>© Restaurante Badalo da Vila - <span>{date.getFullYear()}</span></p>
+                <p>© Nome da Empresa - <span>{date.getFullYear()}</span></p>
             </div>
         </C.Container>
     )

@@ -1,38 +1,35 @@
 import { CardClientsFeedback } from '../CardClientsFeedback'
 import { SectionTitle } from '../SectionTitle'
 import * as C from './styles'
-// import client1 from '../../assets/client1.jpg'
-// import client2 from '../../assets/client2.jpg'
-// import client3 from '../../assets/client3.jpg'
+import client1 from '../../assets/client1.jpg'
+import client2 from '../../assets/client2.jpg'
+import client3 from '../../assets/client3.jpg'
 
 
 export function ClientsFeedback() {
 
     return (
-        <C.Container id='feedback'>
+        <C.Container>
             <SectionTitle>Avaliações dos Clientes</SectionTitle>
             <div>
-
                 <CardClientsFeedback
-                    // img={client1}
-                    name="Jessica Trindade"
+                    img={client1}
+                    name="Nome do Cliente"
                     // job="Fashion Designer"
-                    description='"
-                    Porção extremamente saborosa, e peguei promo de cerveja... Voltarei mais vezes com certeza!!!
-                    "'/>
-                    <CardClientsFeedback
-                        // img={client2}
-                        name="Artur Tokimatsu"
-                        // job="UX DESIGNER"
-                        description='"Comida por quilograma de boa qualidade. Funcionários atenciosos.
-                        Vale a pena conferir o X-Tudo do chapeiro Marcão. Café do Romário. Cachaça de
-                        salinas servida pela Mara. Gerente Edmilson sempre atencioso."'/>
+                    description='"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et volutpat justo.
+                    Pellentesque sit amet dolor orci. Class taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."'/>
                 <CardClientsFeedback
-                    // img={client3}
-                    name="Marcinha"
-                    // job="WEB DESIGNER"
-                    description='"
-                    Lanche saboroso feito com muito capricho pelo Marcão Chapeiro, que é uma simpatia."'/>
+                    img={client1}
+                    name="Nome do Cliente"
+                    // job="Fashion Designer"
+                    description='"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et volutpat justo.
+                    Pellentesque sit amet dolor orci. Class taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."'/>
+                <CardClientsFeedback
+                    img={client1}
+                    name="Nome do Cliente"
+                    // job="Fashion Designer"
+                    description='"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et volutpat justo.
+                    Pellentesque sit amet dolor orci. Class taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."'/>
             </div>
         </C.Container>
     )
